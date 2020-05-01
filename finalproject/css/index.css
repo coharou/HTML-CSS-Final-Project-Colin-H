@@ -1,0 +1,178 @@
+/*
+======================================
+              General
+======================================
+*/
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: #1b1b1b;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+}
+p {
+    text-indent: 2.56rem;
+    font-size: 1.1rem;
+}
+footer {
+    text-align:center;
+    font-size: 1rem;
+}
+
+/*
+======================================
+         Header, nav. menu
+======================================
+*/
+#icon, #icon-1 {
+    display: block;
+}
+
+#icon:hover {
+    box-shadow: 0rem 0rem 1rem #444444;
+}
+
+#icon:active {
+    box-shadow: 0rem 0rem 1rem #8eeecf;
+}
+
+#icon:visited {
+    box-shadow: 0rem 0rem 1rem #326859;
+}
+
+summary, details {
+    list-style-type: none;
+}
+
+/*
+======================================
+              Headline
+======================================
+*/
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0rem 0rem 0.75rem #326859;
+    font-family:'Montserrat', sans-serif;
+}
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0rem 0rem 0.5rem #326859;
+    font-family:'Montserrat', sans-serif;
+}
+#headline {
+    padding-top: 3%;
+} 
+
+/*
+======================================
+              Images
+======================================
+*/
+#visual, #gallery {
+    width: 100%;
+    border: 0.5rem solid #326859;
+}
+figure {
+    padding: 3%;
+}
+figcaption {
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/*
+======================================
+        Quotes, quote captions
+======================================
+*/
+#quote {
+    text-align: center;
+    padding: 3%;
+    padding-right: 8%;
+    padding-left: 8%;
+}
+cite {
+    font-size: 1.85rem;
+    text-shadow: 0rem 0rem 0.5rem #8eeecf;
+    font-family:'Montserrat', sans-serif;
+}
+
+small {
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+/*
+======================================
+            Animations
+======================================
+*/
+#icon-1:hover{
+    transform: skew(10deg);
+    transition-duration: 2s;
+}
+
+/*
+======================================
+        Columns, screen sizes
+======================================
+*/
+[class*="col-"] {
+    padding: 0.1%;
+    float: left;}
+
+/*  MOBILE  */
+.col-1 {
+    width: 100%;}
+.col-2 {
+    width: 100%;}
+.col-3 {
+    width: 100%;}
+.col-4 {
+    width: 100%;}
+.col-5 {
+    width: 100%;}
+.col-6 {
+    width: 100%;}
+.col-7 {
+    width: 100%;}
+.col-8 {
+    width: 100%;}
+.col-9 {
+    width: 100%;}
+.col-10 {
+    width: 100%;}
+#navmenu, nav, header {
+    visibility: hidden;}
+
+/*  TABLETS, DESKTOP */
+@media (min-width: 600px)
+{    
+    .col-1 {
+        width: 10%;}
+    .col-2 {
+        width: 20%;}
+    .col-3 {
+        width: 30%;}
+    .col-4 {
+        width: 40%;}
+    .col-5 {
+        width: 50%;}
+    .col-6 {
+        width: 60%;}
+    .col-7 {
+        width: 70%;}
+    .col-8 {
+        width: 80%;}
+    .col-9 {
+        width: 90%;}
+    .col-10 {
+        width: 100%;}
+    #navmenu, nav, header {
+        visibility: visible;}
+}
